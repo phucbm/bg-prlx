@@ -1,19 +1,19 @@
 {
-	"name": "PACKAGE_NAME",
-	"version": "VERSION",
-	"description": "DESCRIPTION",
-	"license": "MIT",
-	"repository": "USERNAME/PACKAGE_NAME",
-	"author": {
-		"name": "USERNAME",
-		"email": "EMAIL",
-		"url": "YOUR_WEBSITE"
-	},
-	"type": "module",
-	"exports": "./index.js",
-	"engines": {
-		"node": "^12.20.0 || ^14.13.1 || >=16.0.0"
-	},
+  "name": "easy-parallax",
+  "version": "1.0.0",
+  "description": "Create parallax effect for inline `background-image` or `object-fit:cover`.",
+  "license": "MIT",
+  "repository": "phucbm/easy-parallax",
+  "author": {
+    "name": "phucbm",
+    "email": "hiphucbui@gmail.com",
+    "url": "https://buiminhphuc.com/"
+  },
+  "type": "module",
+  "exports": "./index.js",
+  "engines": {
+    "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
+  },
 	"files": [
 		"index.js"
 	],

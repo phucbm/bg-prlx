@@ -1,33 +1,20 @@
-Search and replace all follow this todo list:
+# easy-parallax
 
-- [ ] `PACKAGE_NAME`
-- [ ] `VERSION`
-- [ ] `DESCRIPTION`
-- [ ] `EMAIL`
-- [ ] `USERNAME`
-- [ ] `YOUR_WEBSITE`
-- [ ] `YOUR_NAME`
+[![release](https://badgen.net/github/release/phucbm/easy-parallax/?cache=600)](https://github.com/phucbm/easy-parallax/releases/latest)
+[![license](https://badgen.net/github/license/phucbm/easy-parallax/)](https://github.com/phucbm/easy-parallax/blob/main/LICENSE)
 
-# PACKAGE_NAME
-
-[![release](https://badgen.net/github/release/USERNAME/PACKAGE_NAME/?cache=600)](https://github.com/USERNAME/PACKAGE_NAME/releases/latest)
-[![license](https://badgen.net/github/license/USERNAME/PACKAGE_NAME/)](https://github.com/USERNAME/PACKAGE_NAME/blob/main/LICENSE)
-
-> DESCRIPTION
+> Create parallax effect for inline `background-image` or `object-fit:cover`.
 
 ## Install
 
 ```sh
-npm install PACKAGE_NAME
+npm install easy-parallax
 ```
 
 ## Usage
 
 ```js
-import unicornFun from 'PACKAGE_NAME';
-
-unicornFun('unicorns');
-//=> 'unicorns & rainbows'
+import unicornFun from 'easy-parallax';
 ```
 
 ## API
@@ -42,17 +29,8 @@ Lorem ipsum.
 
 #### options
 
-Type: `object`
-
-##### postfix
-
-Type: `string`\
-Default: `rainbows`
-
-Lorem ipsum.
-
 ## License
 
-[MIT License](https://github.com/USERNAME/PACKAGE_NAME/blob/main/LICENSE)
+[MIT License](https://github.com/phucbm/easy-parallax/blob/main/LICENSE)
 
-Copyright (c) 2022 YOUR_NAME
+Copyright (c) 2022 Minh-Phuc Bui
