@@ -1,0 +1,25 @@
+{
+	"name": "PACKAGE_NAME",
+	"version": "VERSION",
+	"description": "DESCRIPTION",
+	"license": "MIT",
+	"repository": "USERNAME/PACKAGE_NAME",
+	"author": {
+		"name": "USERNAME",
+		"email": "EMAIL",
+		"url": "YOUR_WEBSITE"
+	},
+	"type": "module",
+	"exports": "./index.js",
+	"engines": {
+		"node": "^12.20.0 || ^14.13.1 || >=16.0.0"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"unicorn",
+		"fun"
+	],
+	"dependencies": {}
+}
