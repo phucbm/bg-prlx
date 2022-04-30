@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BG-PRLX</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+        * {box-sizing:border-box;}
+        body {
+            font-family:"Inconsolata", monospace;
+            min-height:100vh; padding:30vh 0;
+        }
+        .container {max-width:1024px; margin:0 auto;}
+        .image-size {aspect-ratio:1920/800; width:100%; background-color:cornflowerblue; border-radius:5px; overflow:hidden;}
+        textarea {width:100%; padding:20px; border:1px solid cornflowerblue; display:block; border-radius:5px;}
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>npm i bg-prlx</h1>
+
+    <h2>Inline background image</h2>
+    <textarea rows="4" readonly style="resize:none;">
+<div data-parallax style="background-image:url(https://picsum.photos/1920/1280); background-size:cover;">
+    <!-- your extra content here -->
+</div>
+       </textarea>
+    <br>
+    <!-- Inline background image -->
+    <div class="image-size" data-parallax
+         style="background-image:url(https://picsum.photos/1920/1280); background-size:cover;">
+        <!-- your extra content here -->
+    </div>
+
+    <br>
+
+    <h2>Object-fit:cover</h2>
+    <textarea rows="4" readonly style="resize:none;">
+<div data-parallax>
+    <img src="https://picsum.photos/1920/1280" alt="Object-fit:cover" style="object-fit:cover;">
+</div>
+       </textarea>
+    <br>
+    <!-- Object-fit:cover -->
+    <div data-parallax>
+        <img class="image-size" src="https://picsum.photos/1920/1280" alt="Object-fit:cover" style="object-fit:cover;">
+    </div>
+
+</div>
+
+</body>
+<script type="module">
+    import backgroundParallax from "./index.js";
+
+    backgroundParallax();
+</script>
+</html>
