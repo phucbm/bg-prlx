@@ -1,20 +1,20 @@
-# easy-parallax
+# bg-prlx
 
-[![release](https://badgen.net/github/release/phucbm/easy-parallax/?cache=600)](https://github.com/phucbm/easy-parallax/releases/latest)
-[![license](https://badgen.net/github/license/phucbm/easy-parallax/)](https://github.com/phucbm/easy-parallax/blob/main/LICENSE)
+[![release](https://badgen.net/github/release/phucbm/bg-prlx/?cache=600)](https://github.com/phucbm/bg-prlx/releases/latest)
+[![license](https://badgen.net/github/license/phucbm/bg-prlx/)](https://github.com/phucbm/bg-prlx/blob/main/LICENSE)
 
 > Create parallax effect for inline `background-image` or `object-fit:cover`.
 
 ## Install
 
 ```sh
-npm install easy-parallax
+npm install bg-prlx
 ```
 
 ## Usage
 
 ```js
-import unicornFun from 'easy-parallax';
+import unicornFun from 'bg-prlx';
 ```
 
 ## API
@@ -31,6 +31,6 @@ Lorem ipsum.
 
 ## License
 
-[MIT License](https://github.com/phucbm/easy-parallax/blob/main/LICENSE)
+[MIT License](https://github.com/phucbm/bg-prlx/blob/main/LICENSE)
 
 Copyright (c) 2022 Minh-Phuc Bui

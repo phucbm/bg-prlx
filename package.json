@@ -1,9 +1,9 @@
 {
-  "name": "easy-parallax",
+  "name": "bg-prlx",
   "version": "1.0.0",
   "description": "Create parallax effect for inline `background-image` or `object-fit:cover`.",
   "license": "MIT",
-  "repository": "phucbm/easy-parallax",
+  "repository": "phucbm/bg-prlx",
   "author": {
     "name": "phucbm",
     "email": "hiphucbui@gmail.com",
