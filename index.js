@@ -1,4 +1,4 @@
-import {getOffset, isjQueryElement} from "./utils";
+import {getOffset, isjQueryElement} from "./utils.js";
 
 function backgroundParallax(elements = document.querySelectorAll("[data-parallax]:not(.parallax-enabled)")){
     // check if page has element parallax
