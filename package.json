@@ -1,6 +1,6 @@
 {
   "name": "bg-prlx",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Create parallax effect for inline `background-image` or `object-fit:cover`.",
   "license": "MIT",
   "repository": "phucbm/bg-prlx",
@@ -9,17 +9,16 @@
     "email": "hiphucbui@gmail.com",
     "url": "https://buiminhphuc.com/"
   },
-  "type": "module",
-  "exports": "./index.js",
-  "engines": {
-    "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
+  "main": "index.js",
+  "scripts": {
+    "serve": "live-server"
   },
-	"files": [
-		"index.js"
-	],
-	"keywords": [
-		"unicorn",
-		"fun"
-	],
-	"dependencies": {}
+  "keywords": [
+    "parallax",
+    "background-parallax",
+    "object-fit"
+  ],
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
 }
